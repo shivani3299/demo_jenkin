@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
+© 2021 GitHub, Inc.
